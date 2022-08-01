@@ -5,6 +5,11 @@ import java.awt.event.ActionListener;
 
 public class GamePanel extends JPanel implements ActionListener {
 
+
+    private Food food;
+    private Snake snake;
+    public Graphics g;
+
     GamePanel(){
 
     }
