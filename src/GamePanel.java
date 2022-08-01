@@ -20,6 +20,23 @@ public class GamePanel extends JPanel implements ActionListener {
     public void draw(Graphics g){
 
     }
+
+    public void move(){
+
+    }
+
+    public void checkPoint(){
+
+    }
+
+    public void checkCollision(){
+
+    }
+
+    public void gameOver(Graphics g) {
+
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
 
