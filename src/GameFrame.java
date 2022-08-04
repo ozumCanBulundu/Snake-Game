@@ -2,9 +2,9 @@ import javax.swing.*;
 
 public class GameFrame extends JFrame {
 
-    private final int width = 30;
-    private final int height = 30;
-     private final int dimension = 20;
+    public static int width = 30;
+    public static int height = 30;
+    public static int  dimension = 20;
 
     GameFrame(){
         this.add(new GamePanel());
@@ -14,5 +14,6 @@ public class GameFrame extends JFrame {
         this.setResizable(false);
         this.setSize(width * dimension, height * dimension);
         this.setLocationRelativeTo(null);
+
     }
 }
