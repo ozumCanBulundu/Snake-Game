@@ -6,6 +6,7 @@ public class Snake {
 
     public Snake(){
         body = new ArrayList<Rectangle>();
+
         Rectangle rectangle1 = new Rectangle(GameFrame.dimension, GameFrame.dimension);
         rectangle1.setLocation(GameFrame.width * GameFrame.dimension / 2,GameFrame.height * GameFrame.dimension / 2);
         body.add(rectangle1);
@@ -28,4 +29,20 @@ public class Snake {
     public void setBody(ArrayList<Rectangle> body) {
         this.body = body;
     }
+
+
+
+    public void up(){
+
+    }
+    public void down(){
+
+    }
+    public void left(){
+
+    }
+    public void right(){
+
+    }
+
 }
