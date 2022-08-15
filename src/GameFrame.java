@@ -7,7 +7,7 @@ public class GameFrame extends JFrame {
     public static int  dimension = 20;
 
     GameFrame(){
-        this.add(new GamePanel());
+        this.add(new GamePanel(this));
         this.setTitle("Snake Game");
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setVisible(true);
